@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+#define EXIT_SUCCESS 0
+#define EXIT_FAILURE 1
+
 int main(void){
   const char *fileName = "studDatabase.txt";
   char name[50];
